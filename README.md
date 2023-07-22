@@ -15,3 +15,6 @@ Os testes foram feitos em uma aplica~cao front-end desenvolvida durante a gradua
 A aplicação foi desenvolvida utilizando Angular 2+ e utiliza apenas o indexedDD API do Browser.
 
 https://ellevo-test.netlify.app/logins
+
+repo para o projeto
+https://github.com/jonasalberton/ellevo.github.io
