@@ -18,6 +18,7 @@ export function createContact(name, email, phone) {
 }
 
 export function createAccount() {
+    // precisa retornar para pagina inicial para criar estrutura do indexDb novamente
     cy.visit(APP_URL);
     cy.get(".cadastro").click();
 
