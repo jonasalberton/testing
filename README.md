@@ -1,5 +1,4 @@
 # Testes E2E - Cypress
-
 Os testes de integração utilizando cypress se encontram no folder **integration**
 
 ### Como executar?
@@ -18,3 +17,8 @@ https://ellevo-test.netlify.app/logins
 
 repo para o projeto
 https://github.com/jonasalberton/ellevo.github.io
+
+
+# Java Junit
+
+Foram implementados testes unitarios para os **services** no projeto backend_formula1
