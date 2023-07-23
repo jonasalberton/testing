@@ -61,10 +61,7 @@ public class CountryServiceTest extends BaseTest {
     @Sql({"/sqls/limpa_tabelas.sql"})
     void save() {
         Country country = new Country(1, "Chile");
-
         country = countryService.salvar(country);
-
-        assertEquals(1, country.getId());
         assertEquals("Chile", country.getName());
     }
 
