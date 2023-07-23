@@ -23,6 +23,8 @@ public class Country {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column
 	private Integer id;
+
+	@Setter
 	@Column(unique = true)
 	private String name;
 

@@ -2,7 +2,6 @@ package br.com.trier.springvespertino.services;
 
 import br.com.trier.springvespertino.BaseTest;
 import br.com.trier.springvespertino.models.Pilot;
-import br.com.trier.springvespertino.models.Race;
 import br.com.trier.springvespertino.services.exceptions.ObjectNotFound;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.DisplayName;
@@ -74,5 +73,4 @@ public class PilotServiceTest extends BaseTest {
         list = pilotService.listAll();
         assertEquals(1, list.size());
     }
-
 }
