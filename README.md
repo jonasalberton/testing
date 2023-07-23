@@ -1,6 +1,6 @@
 # Testes E2E - Cypress
 
-Os tetes de integração utilizando cypress se encontram no folder **integration**
+Os testes de integração utilizando cypress se encontram no folder **integration**
 
 ### Como executar?
 
